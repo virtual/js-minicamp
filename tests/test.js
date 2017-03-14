@@ -3,6 +3,7 @@ var exercises = require('../exercises');
 describe('multiplyByTen(num)', function() {
   it('should return the argument after multiplying by ten', function() {
     expect(exercises.multiplyByTen(10)).toBe(100);
+    expect(exercises.multiplyByTen(2)).toBe(20);
     expect(exercises.multiplyByTen(0)).toBe(0);
   });
 });
